@@ -19,9 +19,9 @@ from extract_utils.main import (
 
 namespace_imports = [
     'hardware/oplus',
-    'hardware/qcom-caf/sm8550',
     'vendor/oneplus/sm8550-common',
-    'vendor/qcom/opensource/display',
+    'vendor/qcom/common/vendor/adreno-t',
+    'vendor/qcom/opensource/commonsys/display',
     'vendor/qcom/opensource/commonsys-intf/display',
 ]
 

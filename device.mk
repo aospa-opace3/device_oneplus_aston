@@ -34,6 +34,10 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 $(call soong_config_set,surfaceflinger,udfps_lib,//hardware/oplus:libudfps_extension.oplus)
 
+# Kernel
+KERNEL_PREBUILT_DIR := device/oneplus/aston-kernel
+BOARD_PREBUILT_DTBOIMAGE := $(KERNEL_PREBUILT_DIR)/dtbs/aston-23801-23861-dtbo.img
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResEuicc_NA \
